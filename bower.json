@@ -1,0 +1,23 @@
+{
+  "name": "chief",
+  "authors": [
+    "Taylor Buley <taylor.buley@mcnaughton.media>"
+  ],
+  "description": "",
+  "main": "dist/chief.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mcnaughton/chief",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3"
+  }
+}
