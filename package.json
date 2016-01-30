@@ -26,8 +26,7 @@
     "r.js": "^1.0.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "/usr/local/bin/r.js -o main.js && exit 1"
+    "test": "grunt requirejs && grunt karma"
   },
   "author": "",
   "license": "ISC"
