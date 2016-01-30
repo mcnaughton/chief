@@ -1,9 +1,14 @@
-language: node_js
-
 branches:
   only:
     - master
     - development
+
+language: node_js
+
+cache:
+  directories:
+    - node_modules
+    - bower_components
 
 before_install:
   - npm -g install npm@latest
