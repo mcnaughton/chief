@@ -11,11 +11,9 @@
   "license": "MIT",
   "homepage": "https://github.com/mcnaughton/chief",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "*",
+    "!dist/",
+    "!dist/*"
   ],
   "dependencies": {
     "underscore": "~1.8.3",
