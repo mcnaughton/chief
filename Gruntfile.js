@@ -31,6 +31,7 @@ module.exports = function (grunt) {
                             exports: '_'
                         }
                     },
+                    optimize: 'none',
                     paths: {
                         'underscore': 'bower_components/underscore/underscore',
                         'q': 'bower_components/q/q',
