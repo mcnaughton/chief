@@ -5,9 +5,6 @@ define(['src/js/bridge', 'src/js/load', 'vulcan'], function(bridge, load) {
         bridge.evalScript("log()", function(){
             console.log("ARGS",arguments);
         });
-        bridge.evalScript("testFnAgain('yes')", function(){
-            console.log("ARGS2",arguments);
-        });
     }
     return {
         run: function (src, callback) {
