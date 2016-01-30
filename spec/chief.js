@@ -4,7 +4,7 @@ define(['src/chief'], function (chief) {
     beforeEach(function(done) {
         chief.then(function() {
             promise = true;
-            done()
+            done();
         });
     });
     describe('chief', function () {
