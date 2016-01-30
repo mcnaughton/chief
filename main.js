@@ -12,6 +12,7 @@
             main: 'extras/coffee-script'
         }
     ],
+    include: ['src/chief'],
     out: 'dist',
     name: 'chief',
     mainConfigFile: 'src/chief.js',
