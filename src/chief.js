@@ -1,4 +1,4 @@
-define(
+var chief = define(
     [
         'q',
         'underscore'

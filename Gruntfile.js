@@ -23,6 +23,14 @@ module.exports = function (grunt) {
             compile: {
                 options: {
                     mainConfigFile: 'main.js',
+                    shim: {
+                        'q': {
+                            exports: 'Q'
+                        },
+                        'underscore': {
+                            exports: '_'
+                        }
+                    },
                     paths: {
                         'underscore': 'bower_components/underscore/underscore',
                         'q': 'bower_components/q/q',
@@ -49,6 +57,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-karma');
 
-    grunt.registerTask('default', ['requirejs']);
+    grunt.registerTask('default', ['requirejs', 'karma']);
 
 };

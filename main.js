@@ -12,6 +12,20 @@
             main: 'extras/coffee-script'
         }
     ],
+    paths: {
+        'underscore': 'bower_components/underscore/underscore',
+        'q': 'bower_components/q/q',
+        es6: 'bower_components/requirejs-babel/es6',
+        babel: 'bower_components/requirejs-babel/babel-5.8.22.min'
+    },
+    shim: {
+        'q': {
+            exports: 'Q'
+        },
+        'underscore': {
+            exports: '_'
+        }
+    },
     include: ['src/chief'],
     out: 'dist',
     name: 'chief',
