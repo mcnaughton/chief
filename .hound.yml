@@ -1,0 +1,20 @@
+scss:
+  enabled: true
+  config_file: .scss-lint.yml
+
+javascript:
+  enabled: true
+  config_file: .jshintrc
+
+coffeescript:
+  enabled: true
+  config_file: coffeelint.json
+
+jscs:
+  enabled: true
+  config_file: .jscsrc
+
+go:
+  enabled: true
+
+fail_on_violations: true
