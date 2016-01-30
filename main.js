@@ -2,7 +2,12 @@
     appDir: '.',
     baseUrl: '.',
     map: {},
-    paths: {},
+    paths: {
+        'q': 'bower_components/q/q',
+        'underscore': 'bower_components/underscore/underscore',
+        'node_modules': 'empty:',
+        'bower_components': 'empty:'
+    },
     packages: [
         {
             name: 'cs',
@@ -15,9 +20,10 @@
             main: 'extras/coffee-script'
         }
     ],
+
     modules: [
         {
-            name: 'src/app',
+            name: 'src/chief',
             include: [
                 'q',
                 'underscore'
