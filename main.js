@@ -13,6 +13,8 @@
         }
     ],
     paths: {
+        'csinterface': 'src/vendor/CSInterface-5.2',
+        'vulcan': 'src/vendor/Vulcan',
         'underscore': 'bower_components/underscore/underscore',
         'q': 'bower_components/q/q',
         es6: 'bower_components/requirejs-babel/es6',
@@ -24,6 +26,12 @@
         },
         'underscore': {
             exports: '_'
+        },
+        'csinterface': {
+            exports: 'CSInterface'
+        },
+        'vulcan': {
+            exports: 'Vulcan'
         }
     },
     include: ['src/chief'],

@@ -1,9 +1,10 @@
 var chief = define(
     [
         'q',
-        'underscore'
+        'underscore',
+        'src/js/adobe'
     ],
-    function (Q, _) {
+    function (Q, _, adobe) {
         'use strict';
         var module = Q.defer();
         module.resolve();

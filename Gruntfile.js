@@ -29,6 +29,12 @@ module.exports = function (grunt) {
                         },
                         'underscore': {
                             exports: '_'
+                        },
+                        'vulcan': {
+                            exports: 'Vulcan'
+                        },
+                        'csinterface': {
+                            exports: 'CSInterface'
                         }
                     },
                     optimize: 'none',
@@ -36,7 +42,9 @@ module.exports = function (grunt) {
                         'underscore': 'bower_components/underscore/underscore',
                         'q': 'bower_components/q/q',
                         es6: 'bower_components/requirejs-babel/es6',
-                        babel: 'bower_components/requirejs-babel/babel-5.8.22.min'
+                        babel: 'bower_components/requirejs-babel/babel-5.8.22.min',
+                        'csinterface': 'src/vendor/CSInterface-5.2',
+                        'vulcan': 'src/vendor/Vulcan'
                     },
                     include: ['src/chief'],
                     baseUrl: '.',
