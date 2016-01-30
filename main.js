@@ -1,13 +1,5 @@
 ({
-    appDir: '.',
     baseUrl: '.',
-    map: {},
-    paths: {
-        'q': 'bower_components/q/q',
-        'underscore': 'bower_components/underscore/underscore',
-        'node_modules': 'empty:',
-        'bower_components': 'empty:'
-    },
     packages: [
         {
             name: 'cs',
@@ -20,17 +12,8 @@
             main: 'extras/coffee-script'
         }
     ],
-
-    modules: [
-        {
-            name: 'src/chief',
-            include: [
-                'q',
-                'underscore'
-            ]
-        }
-    ],
-    dir: 'dist',
+    out: 'dist',
+    name: 'chief',
     mainConfigFile: 'src/chief.js',
     preserveLicenseComments: false,
     optimizeAllPluginResources: true,
